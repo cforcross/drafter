@@ -17,11 +17,6 @@ permissions:
   contents: read
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-
   update_release_draft:
     permissions:
       # write permission is required to create a github release
